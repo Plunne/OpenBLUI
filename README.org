@@ -24,6 +24,7 @@ It means that you'll be able to chose how your motor will accelerate or decelera
 ** User Interface
 
 A User Interface will be there to insert points in a graph depending of some aspects.
+I plan creating a QtQuick UI but it can changes.
 
 *** Acceleration/Deceleration phases
 
@@ -44,6 +45,7 @@ With multiple points, you'll be able to modulate the curve with setting Power an
 ** MCU
 
 The micro-controller unit will receive the program and make the connection between driver throttle and transmission.
+I plan to work on STM32 MCUs but it can changes.
 
 ** ESC
 
