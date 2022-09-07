@@ -1,0 +1,68 @@
+#+TITLE: Open Brushless User Interface
+#+AUTHOR: Lena SAVY-LARIGALDIE
+
+
+
+* TABLE OF CONTENT :toc:
+- [[#what-is-it][WHAT IS IT?]]
+- [[#parts-of-the-project][PARTS OF THE PROJECT]]
+  - [[#user-interface][User Interface]]
+  - [[#mcu][MCU]]
+  - [[#esc][ESC]]
+  - [[#motors][Motor(s)]]
+  - [[#battery][Battery]]
+- [[#why-this-project][WHY THIS PROJECT?]]
+- [[#when][WHEN?]]
+
+* WHAT IS IT?
+
+Open BLUI is a solution that will enable you to create your own Electric Vehicule with a modelisable power distribution.
+It means that you'll be able to chose how your motor will accelerate or decelerate.
+
+* PARTS OF THE PROJECT
+
+** User Interface
+
+A User Interface will be there to insert points in a graph depending of some aspects.
+
+*** Acceleration/Deceleration phases
+
+You'll be able to modulate both acceleration and deceleration in two different graph.
+
+*** Max Power
+
+You'll have to chose a max power for security.
+
+*** Time
+
+Duration of the acceleration or deceleration phases.
+
+*** Power/Torque
+
+With multiple points, you'll be able to modulate the curve with setting Power and Torque value at a time.
+
+** MCU
+
+The micro-controller unit will receive the program and make the connection between driver throttle and transmission.
+
+** ESC
+
+The ESC is a power unit that manage the motors supply.
+
+** Motor(s)
+
+Depending of your kind of vehicule,you'll be able ton manage the number of motors you want.
+
+** Battery
+
+Energy management.
+
+* WHY THIS PROJECT?
+
+The main advantage of this project is that you'll be able to chose every part of your project you want.
+Also, it's Free and Open Source, I want most people using it in the future because my dream is to drive Open Source Electric cars.
+It's a road to a next generation of racing.
+
+* WHEN?
+
+I don't really have the budget at the moment, i search a job to get money and experience to work on it in my free time.
