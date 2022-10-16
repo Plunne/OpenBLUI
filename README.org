@@ -5,6 +5,7 @@
 
 * TABLE OF CONTENT :toc:
 - [[#what-is-it][WHAT IS IT?]]
+- [[#save--share][SAVE & SHARE]]
 - [[#parts-of-the-project][PARTS OF THE PROJECT]]
   - [[#user-interface][User Interface]]
   - [[#mcu][MCU]]
@@ -18,6 +19,10 @@
 
 Open BLUI is a solution that will enable you to create your own Electric Vehicule with a modelisable power distribution.
 It means that you'll be able to chose how your motor will accelerate or decelerate.
+
+* SAVE & SHARE
+
+An important part of the project is that you'll be able to save and share your maps with other peoples that use the project with a generic data format that would be a standard.
 
 * PARTS OF THE PROJECT
 
@@ -45,7 +50,7 @@ With multiple points, you'll be able to modulate the curve with setting Power an
 ** MCU
 
 The micro-controller unit will receive the program and make the connection between driver throttle and transmission.
-I plan to work on STM32 MCUs but it can changes.
+Atm I'll work on STM32 MCUs with MbedOS.
 
 ** ESC
 
@@ -53,7 +58,7 @@ The ESC is a power unit that manage the motors supply.
 
 ** Motor(s)
 
-Depending of your kind of vehicule,you'll be able ton manage the number of motors you want.
+Depending of your kind of vehicule, you'll be able ton manage the number of motors you want.
 
 ** Battery
 
